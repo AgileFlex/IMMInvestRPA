@@ -32,6 +32,6 @@ SELECT
 	[Firmă]					AS [Firma],
 	[Stare solicitare]		AS [StareSolicitare]
 FROM 
-	OPENROWSET('Microsoft.ACE.OLEDB.16.0', 'Excel 12.0 Xml;Database=D:\UIPathRPA\ImmInvestRequests\Excels\imm-invest-requests-21-5-2020.xlsx', Sheet1$);
+	OPENROWSET('Microsoft.ACE.OLEDB.16.0', 'Excel 12.0 Xml;Database=D:\UIPathRPA\ImmInvestRequests\Excels\imm-invest-requests-22-5-2020.xlsx', Sheet1$);
 
 EXEC sp_getUniqueRequests
